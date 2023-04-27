@@ -3,10 +3,10 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" /><link rel="next" title="1. Description" href="description/description.html" />
+<link rel="index" title="Index" href="genindex.html" /><link rel="search" title="Search" href="search.html" />
 
     <!-- Generated with Sphinx 6.1.3 and Furo 2023.03.27 -->
-        <title>FB4 Flight Manual 1.0.0 documentation</title>
+        <title>Introduction - FB4 Flight Manual 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=fad236701ea90a88636c2a8c73b44ae642ed2a53" />
     <link rel="stylesheet" type="text/css" href="_static/drawio.css" />
@@ -124,7 +124,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="#"><div class="brand">FB4 Flight Manual 1.0.0 documentation</div></a>
+      <a href="index.html"><div class="brand">FB4 Flight Manual 1.0.0 documentation</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -135,7 +135,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -144,7 +144,7 @@
   <aside class="sidebar-drawer">
     <div class="sidebar-container">
       
-      <div class="sidebar-sticky"><a class="sidebar-brand" href="#">
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
   
   
   <span class="sidebar-brand-text">FB4 Flight Manual 1.0.0 documentation</span>
@@ -189,32 +189,104 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
         </div>
         <article role="main">
-          <section id="welcome-to-fb4-flight-manual-s-documentation">
-<h1>Welcome to FB4 Flight Manual’s documentation!<a class="headerlink" href="#welcome-to-fb4-flight-manual-s-documentation" title="Permalink to this heading">#</a></h1>
-<p>This is version 1.1.0!</p>
-<div class="toctree-wrapper compound">
-<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="description/description.html">1. Description</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="description/powerAndPropulsionSystem.html">1.1. Power and Propulsion system</a></li>
-</ul>
-</li>
-</ul>
-</div>
+          <section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading">#</a></h1>
+<p>This Flight Manual is designed as an operating guide for the pilot. It is not a replacement for adequate training.</p>
+<section id="acronyms-definitions">
+<h2>Acronyms/Definitions<a class="headerlink" href="#acronyms-definitions" title="Permalink to this heading">#</a></h2>
+<dl class="simple glossary">
+<dt id="term-AGL">AGL<a class="headerlink" href="#term-AGL" title="Permalink to this term">#</a></dt><dd><p>Above Ground level</p>
+</dd>
+<dt id="term-Ah">Ah<a class="headerlink" href="#term-Ah" title="Permalink to this term">#</a></dt><dd><p>Ampere hour
+- Unit of electric charge, equal to the charge transferred by a steady current of one ampere flowing for one hour</p>
+</dd>
+<dt id="term-CAN-Bus">CAN (Bus)<a class="headerlink" href="#term-CAN-Bus" title="Permalink to this term">#</a></dt><dd><p>Controller Area Network (Bus)
+- A robust vehicle bus standard designed to allow microcontrollers and devices to communicate with each other</p>
+</dd>
+<dt id="term-CW">CW<a class="headerlink" href="#term-CW" title="Permalink to this term">#</a></dt><dd><p>Clockwise</p>
+</dd>
+<dt id="term-CCW">CCW<a class="headerlink" href="#term-CCW" title="Permalink to this term">#</a></dt><dd><p>Counter-clockwise</p>
+</dd>
+<dt id="term-COTS">COTS<a class="headerlink" href="#term-COTS" title="Permalink to this term">#</a></dt><dd><p>Commercial off-the-shelf</p>
+</dd>
+<dt id="term-EMI">EMI<a class="headerlink" href="#term-EMI" title="Permalink to this term">#</a></dt><dd><p>Electro Magnetic Interference</p>
+</dd>
+<dt id="term-ESC">ESC<a class="headerlink" href="#term-ESC" title="Permalink to this term">#</a></dt><dd><p>Electronic Speed Controller</p>
+</dd>
+<dt id="term-FC">FC<a class="headerlink" href="#term-FC" title="Permalink to this term">#</a></dt><dd><p>Flight Controller
+- System controlling the attitude of the aircraft according to control inputs given to it by sending controls to external actuators</p>
+</dd>
+<dt id="term-FCS">FCS<a class="headerlink" href="#term-FCS" title="Permalink to this term">#</a></dt><dd><p>Flight Control System
+- Complete system from stick inputs to actuators</p>
+</dd>
+<dt id="term-FPV">FPV<a class="headerlink" href="#term-FPV" title="Permalink to this term">#</a></dt><dd><p>First person view
+- Perspective of a camera simulating the pilot’s view point on an aircraft.</p>
+</dd>
+<dt id="term-FTS">FTS<a class="headerlink" href="#term-FTS" title="Permalink to this term">#</a></dt><dd><p>Flight Termination System</p>
+</dd>
+<dt id="term-GCS">GCS<a class="headerlink" href="#term-GCS" title="Permalink to this term">#</a></dt><dd><p>Ground Control Station
+- Provides control inputs and display outputs to the pilot.</p>
+</dd>
+<dt id="term-HMI">HMI<a class="headerlink" href="#term-HMI" title="Permalink to this term">#</a></dt><dd><p>Human Machine Interface
+- Interface between Human and Machine, in our case it includes displays and control inputs in the GCS</p>
+</dd>
+<dt id="term-ICL">ICL<a class="headerlink" href="#term-ICL" title="Permalink to this term">#</a></dt><dd><p>Inrush current limiter
+- A component or device designed to avoid inrush currents e.g. through a resistance</p>
+</dd>
+<dt id="term-LiPo">LiPo<a class="headerlink" href="#term-LiPo" title="Permalink to this term">#</a></dt><dd><p>Lithium Polymer</p>
+</dd>
+<dt id="term-LiIon">LiIon<a class="headerlink" href="#term-LiIon" title="Permalink to this term">#</a></dt><dd><p>Lithium Ion</p>
+</dd>
+<dt id="term-LOS">LOS<a class="headerlink" href="#term-LOS" title="Permalink to this term">#</a></dt><dd><p>Line of sight</p>
+</dd>
+<dt id="term-LUC">LUC<a class="headerlink" href="#term-LUC" title="Permalink to this term">#</a></dt><dd><p>Light UAS operator certificate</p>
+</dd>
+<dt id="term-MTOM">MTOM<a class="headerlink" href="#term-MTOM" title="Permalink to this term">#</a></dt><dd><p>Maximum Take-off Mass</p>
+</dd>
+<dt id="term-OAT">OAT<a class="headerlink" href="#term-OAT" title="Permalink to this term">#</a></dt><dd><p>Outside Air Temperature
+- Temperature of the air around an aircraft, but unaffected by the passage of the aircraft through it</p>
+</dd>
+<dt id="term-OEM">OEM<a class="headerlink" href="#term-OEM" title="Permalink to this term">#</a></dt><dd><p>Operational Empty Mass
+- Empty mass includes the mass of the airframe, the propulsion system, batteries and wiring.</p>
+</dd>
+<dt id="term-PFD">PFD<a class="headerlink" href="#term-PFD" title="Permalink to this term">#</a></dt><dd><p>Primary flight display</p>
+</dd>
+<dt id="term-RC">RC<a class="headerlink" href="#term-RC" title="Permalink to this term">#</a></dt><dd><p>Remote Controller
+- Device used to remotely control a device, providing different types of inputs (switches, joysticks, buttons, etc.)</p>
+</dd>
+<dt id="term-RCLH">RCLH<a class="headerlink" href="#term-RCLH" title="Permalink to this term">#</a></dt><dd><p>Remote Control Load Hook
+- Component to remotely disconnect a payload, refferred to the one designed by FlyingBasket</p>
+</dd>
+<dt id="term-RF">RF<a class="headerlink" href="#term-RF" title="Permalink to this term">#</a></dt><dd><p>Radio Frequency</p>
+</dd>
+<dt id="term-RSSI">RSSI<a class="headerlink" href="#term-RSSI" title="Permalink to this term">#</a></dt><dd><p>Received Signal Strength Indication
+- A measurement of the power present in a received radio signal</p>
+</dd>
+<dt id="term-RVO">RVO<a class="headerlink" href="#term-RVO" title="Permalink to this term">#</a></dt><dd><p>Remote Visual Observer</p>
+</dd>
+<dt id="term-RX">RX<a class="headerlink" href="#term-RX" title="Permalink to this term">#</a></dt><dd><p>Receiver</p>
+</dd>
+<dt id="term-TX">TX<a class="headerlink" href="#term-TX" title="Permalink to this term">#</a></dt><dd><p>Transmitter</p>
+</dd>
+<dt id="term-UAS">UAS<a class="headerlink" href="#term-UAS" title="Permalink to this term">#</a></dt><dd><p>Unmanned aerial system
+- Complete system including UAV and its Ground Control Station</p>
+</dd>
+<dt id="term-UAV">UAV<a class="headerlink" href="#term-UAV" title="Permalink to this term">#</a></dt><dd><p>Unmanned Aircraft
+- Is the aircraft (flying part) of the UAS</p>
+</dd>
+<dt id="term-USB">USB<a class="headerlink" href="#term-USB" title="Permalink to this term">#</a></dt><dd><p>Universal Serial Bus
+- A serial bus interface standard for connecting peripheral devices to a computer</p>
+</dd>
+<dt id="term-VTX">VTX<a class="headerlink" href="#term-VTX" title="Permalink to this term">#</a></dt><dd><p>Video transmitter</p>
+</dd>
+</dl>
 </section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading">#</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
 </section>
 
         </article>
@@ -222,15 +294,7 @@
       <footer>
         
         <div class="related-pages">
-          <a class="next-page" href="description/description.html">
-              <div class="page-info">
-                <div class="context">
-                  <span>Next</span>
-                </div>
-                <div class="title"><span class="section-number">1. </span>Description</div>
-              </div>
-              <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
-            </a>
+          
           
         </div>
         <div class="bottom-of-page">
@@ -250,8 +314,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Introduction</a><ul>
+<li><a class="reference internal" href="#acronyms-definitions">Acronyms/Definitions</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
